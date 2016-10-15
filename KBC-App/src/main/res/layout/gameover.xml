@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/gOLinLay">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:id="@+id/result"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textIsSelectable="false"
+        android:typeface="serif"
+        android:gravity="center"
+        android:layout_marginTop="20dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/report"
+        android:layout_marginTop="25dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:typeface="serif"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Try Again"
+        android:id="@+id/t_again"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:elevation="15dp"
+        android:ellipsize="none"
+        android:focusable="false"
+        android:background="@drawable/try_button"
+        android:textColor="#fff"/>
+</LinearLayout>
